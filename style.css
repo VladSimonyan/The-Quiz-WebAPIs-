@@ -1,1 +1,89 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+#highScore1{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    padding-left: 40px;
+    color: red;
+    font-style: normal;
+}
+
+#timer {
+    border-style: inset;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 15px;
+    margin-right: 40px;
+}
+
+.container {
+    text-align: center;
+    padding: 40px 90px 40px 90px;
+    height: auto;
+    width: auto;
+}
+
+#questionsDiv{
+    margin-top: 75px;
+}
+
+#unorderedList {
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+    padding-left: 100px;
+    width: 200px;
+}
+
+li {
+background-color: lavender;
+border-style: groove;
+border-color: purple;
+border-width: 2px;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-bottom: 7px;
+
+}
+
+#startButton{
+    height: 50px;
+    width: 150px;
+    margin-top: 40px;
+    background-color: rgb(180, 102, 180);
+    border-color: rgb(204, 171, 204);
+    border-width: 3px;
+    border-radius: 12px;
+}
+
+#createH1 {
+    font-size: 50px;
+    color: rgb(39, 156, 90);
+    /* used the resource https://css-tricks.com/snippets/css/gradient-text/ */
+    background: -webkit-linear-gradient(rgb(173, 45, 199), rgb(132, 240, 69));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#initials{
+    height: 35px;
+    width: 75px;
+    border-radius: 5px;
+    border-width: 1.5px;
+}
+
+button {
+    font-size: 120%;
+    margin-left: 10px;
+    height: 35px;
+    width: 75px;
+    border-radius: 10px;
+}
+
+#createDiv {
+    margin-top: 40px; 
+}
